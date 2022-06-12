@@ -12,6 +12,6 @@ app.use(bodyParser.json());
 app.use("/",myrouter);
 
 
-app.listen(`listining on port`);
+
 
 module.exports = {app};
