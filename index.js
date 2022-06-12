@@ -6,13 +6,12 @@ const app = express();
 
 
 app.use(bodyParser.urlencoded({extended:false}))
-
 app.use(bodyParser.json());
 
 
 app.use("/",myrouter);
 
 
-
+app.listen(`listining on port`);
 
 module.exports = {app};
